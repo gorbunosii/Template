@@ -1,0 +1,135 @@
+
+.container {
+    padding: 0 200px;
+    margin: 0 auto;
+}
+
+.advantage {
+    padding: 70px 0;
+}
+
+.advantage__title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #383A4C;
+    margin-bottom: 25px;
+}
+
+.advantage__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    color: #383A4C;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.advantage__subtitle:after {
+    content: url("image/Right.png");
+    position: relative;
+    top: -8px;
+    left: 23px;
+}
+
+.advantage__subtitle:before {
+    content: url("image/Right.png");
+    position: relative;
+    top: -8px;
+    right: 23px;
+}
+
+.advantage__about {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #383A4C;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.advantage__list {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.advantage__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage__one ,.advantage__two ,.advantage__three ,.advantage__four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 122px;
+    background-color: #23C7EC;
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: 57px;
+    margin-bottom: 16px;
+}
+
+.advantage__text {
+    white-space: pre-line;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #383A4C;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+    .advantage__one ,.advantage__two ,.advantage__three ,.advantage__four {
+        width: 104px;
+        height: 104px;
+        font-size: 52px;
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 720px) {
+    .advantage__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+    .advantage {
+        padding: 30px 0;
+    }
+    .advantage__title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .advantage__subtitle {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+    .advantage__about {
+        font-size: 12px;
+        line-height: 17px;
+        white-space: normal;
+        margin-bottom: 40px;
+    }
+
+    .advantage__list {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+    .advantage__item:last-child {
+        margin-bottom: 60px;
+    }
+}

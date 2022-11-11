@@ -1,0 +1,19 @@
+
+.footer__mobile {
+    background-color: #2A2C3F;
+}
+
+.footer__content {
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 15px 0;
+}
+
+@media (min-width: 321px) {
+    .footer__mobile {
+        display: none;
+    }
+}
