@@ -36,7 +36,7 @@
 
 .questions__title {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 38px;
     text-align: center;
     color: white;
     margin-bottom: 17px;
@@ -53,9 +53,9 @@
 .questions_form {
     display: flex;
     flex-direction: column;
-    gap: 21px;
+    gap: 18px;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 .questions__input {
@@ -63,7 +63,7 @@
     border: 2px solid #FFFFFF;
     border-radius: 50px;
     background: transparent;
-    padding: 9px 26px;
+    padding: 9px 22px;
     font-weight: 400;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
@@ -71,13 +71,14 @@
 
 .questions__button {
     line-height: 23px;
-    padding: 11px 38px;
+    padding: 12px 38px;
     background: #15A9CB;
     box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
     border-radius: 50px;
     border: none;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 51px;
+    font-size: 20px;
 }
 
 .questions__button-center {
@@ -88,6 +89,7 @@
 .questions__accept {
     color: #FFFFFF;
     text-align: center;
+    font-size: 20px;
 }
 
 .questions__accept_href {
@@ -100,14 +102,37 @@
         padding: 0 30px;
     }
     .questions__input {
-        width: 377px;
+        width: 383px;
         border: 2px solid #FFFFFF;
         border-radius: 50px;
         background: transparent;
-        padding: 9px 26px;
+        padding: 9px 22px;
         font-weight: 400;
         font-size: 22px;
         color: rgba(255, 255, 255, 0.5);
+    }
+    .questions__title {
+        font-size: 33px;
+        margin-bottom: 19px;
+    }
+    .questions__subtitle {
+        font-size: 19px;
+        margin-bottom: 48px;
+    }
+    .questions_form {
+        gap: 10px;
+        margin-bottom: 48px;
+    }
+    .questions__accept {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 17px;
+    }
+    .questions__button {
+        margin-bottom: 30px;
+    }
+    .questions {
+        min-height: 560px;
     }
 }
 @media (max-width: 320px) {
@@ -119,7 +144,7 @@
     }
     .questions__title {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 13px;
     }
 
     .questions__subtitle {
@@ -130,7 +155,7 @@
     .questions_form {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         align-items: center;
         margin-bottom: 45px;
     }
@@ -142,11 +167,15 @@
     }
 
     .questions__button {
-        line-height: 19px;
-        padding: 10px 26px;
-        margin-bottom: 30px;
+        line-height: 15px;
+        padding: 10px 30px;
+        margin-bottom: 32px;
+        font-size: 16px;
     }
     .questions {
         min-height: 398px;
+    }
+    .questions__accept {
+        font-size: 11px;
     }
 }

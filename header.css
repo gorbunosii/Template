@@ -9,7 +9,7 @@
     background-size: cover;
     position: relative;
     width: 100%;
-    min-height: 743px;
+    min-height: 733px;
 }
 
 .blackout:before {
@@ -35,7 +35,7 @@
     font-size: 52px;
     text-align: center;
     margin-bottom: 35px;
-    line-height: 61px;
+    line-height: 59px;
     color: rgba(255, 255, 255, 0.86);
 }
 
@@ -95,7 +95,7 @@
     font-size: 20px;
     color: white;
     margin-bottom: 120px;
-    line-height: 23px;
+    line-height: 24px;
     padding: 12px 48px;
 }
 
@@ -116,21 +116,44 @@
         text-align: center;
         margin-bottom: 28px;
         line-height: 47px;
+        white-space: pre-line;
     }
     .header__subtext {
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 13px;
         white-space: nowrap;
     }
     .header__button {
         margin-bottom: 70px;
     }
     .blackout {
-        min-height: 552px;
+        min-height: 529px;
     }
     .header__header {
         padding: 26px 0 70px 0;
         align-items: center;
+    }
+    .header__logo {
+        width: 60px;
+        height: 60px;
+    }
+    .header__telephone {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .header__subtext:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.5);
+        width: 107px;
+        height: 1px;
+        right: 40px;
+    }
+    .header__subtitle {
+        font-size: 18px;
+        white-space: pre-line;
+        margin-bottom: 59px;
+        line-height: 24px;
     }
 }
 
@@ -161,8 +184,9 @@
     }
     .header__title {
         font-size: 20px;
-        margin-bottom: 23px;
-        line-height: 23px;
+        margin-bottom: 25px;
+        line-height: 22px;
+        white-space: normal;
     }
     .header__subtitle {
         font-size: 14px;
@@ -174,10 +198,17 @@
         margin-bottom: 65px;
     }
     .blackout {
-        min-height: 552px;
+        min-height: 441px;
     }
     .header__header {
-        padding: 26px 0 70px 0;
-        align-items: center;
+        padding: 15px 0 68px 0;
+        align-items: start;
+    }
+    .none {
+        display: none;
+    }
+    .header__button {
+        font-size: 16px;
+        padding: 6px 38px;
     }
 }

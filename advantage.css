@@ -13,7 +13,7 @@
     font-size: 35px;
     text-align: center;
     color: #383A4C;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .advantage__subtitle {
@@ -21,7 +21,7 @@
     font-size: 22px;
     color: #383A4C;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
 }
 
 .advantage__subtitle:after {
@@ -45,12 +45,12 @@
     text-align: center;
     color: #383A4C;
     white-space: pre-line;
-    margin-bottom: 50px;
+    margin-bottom: 61px;
 }
 
 .advantage__list {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -58,6 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 196px;
 }
 
 .advantage__one ,.advantage__two ,.advantage__three ,.advantage__four {
@@ -71,7 +72,7 @@
     color: white;
     font-weight: 500;
     font-size: 57px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .advantage__text {
@@ -91,7 +92,35 @@
         width: 104px;
         height: 104px;
         font-size: 52px;
-        margin-bottom: 26px;
+        margin-bottom: 22px;
+    }
+    .advantage__title {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .advantage__subtitle {
+        font-size: 21px;
+        margin-bottom: 33px;
+    }
+    .advantage__subtitle:after {
+        top: -7px;
+        left: 19px;
+    }
+    .advantage__subtitle:before {
+        top: -7px;
+        right: 19px;
+    }
+    .advantage__about {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 61px;
+    }
+    .advantage__list {
+        gap: 34px;
+    }
+    .advantage__text {
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
@@ -110,12 +139,12 @@
     }
     .advantage__title {
         font-size: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 17px;
     }
 
     .advantage__subtitle {
-        font-size: 20px;
-        margin-bottom: 26px;
+        font-size: 17px;
+        margin-bottom: 29px;
     }
     .advantage__about {
         font-size: 12px;
@@ -126,10 +155,24 @@
 
     .advantage__list {
         display: flex;
-        gap: 40px;
+        gap: 27px;
         justify-content: center;
     }
     .advantage__item:last-child {
-        margin-bottom: 60px;
+        margin-bottom: 19px;
+    }
+    .advantage__subtitle:after {
+        top: -2px;
+        left: 19px;
+    }
+    .advantage__subtitle:before {
+        top: -2px;
+        right: 19px;
+    }
+    .advantage__item {
+        height: 195px;
+    }
+    .advantage__one ,.advantage__two ,.advantage__three ,.advantage__four {
+        margin-bottom: 25px;
     }
 }
